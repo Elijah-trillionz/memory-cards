@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+    <title>Save Questions and Answers</title>
+    <link rel="stylesheet" href="../fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <div class="display-card">
+          <div class="actions">
+            <button id="clr-btn">Clear Card</button>
+            <button id="add-btn">Add Card</button>
+          </div>
+          <div class="card-question">
+            <p>What is NodeJs?</p>
+          </div>
+          <div class="pagination">
+            <button id="prev">Previous</button>
+            <p>1/1</p>
+            <button id="next">Next</button>
+          </div>
+        </div>
+        <section class="add">
+          <div class="add-container">
+            <h3>
+              <i class="fa fa-book-open"></i>
+              Add Card
+            </h3>
+            <span>Save an answer to a question for reference sake...</span>
+            <div class="add-inputs">
+              <label for="question">Question</label><br />
+              <textarea id="quest" placeholder="Enter question..."></textarea
+              ><br />
+              <label for="question">Answer</label><br />
+              <textarea id="ans" placeholder="Enter answer..."></textarea><br />
+              <button id="submit">Add Card</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
